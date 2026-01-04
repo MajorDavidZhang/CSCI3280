@@ -1,0 +1,17 @@
+instructors:
+  - name: Cheng Yu
+    profile_pic: /_images/pp/instructor.jpg
+    webpage: https://ych133.github.io
+
+teaching_assistants:
+  - name: Zhang Jihai
+    profile_pic: /_images/pp/jihaizhang.jpg
+    webpage: https://majordavidzhang.github.io
+
+  # - name: Li Tianle
+  #   profile_pic: /_images/pp/tianleli.jpg
+  #   webpage: https://ltl3a87.github.io/tianleli.github.io
+
+  # - name: Li Chengxi
+  #   profile_pic: /_images/pp/chengxili.jpg
+  #   webpage: https://baigker.github.io

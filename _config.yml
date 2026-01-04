@@ -1,0 +1,64 @@
+# Site settings
+course_name: CSCI3280 Introduction to Multimedia Systems
+course_description: |
+    <p>This course covers the design and implementation of modern multimedia systems, especially in the age of AI and LLM. Topics include multimedia systems design, multimedia data representation, multimedia hardware and software,
+    multimedia communication and networking, multimedia programming and multimedia information systems. 
+    
+    # <p><a href="https://docs.google.com/spreadsheets/d/1ZTMhoA7xjbSqrdGXXBS4PJGph6z2NVHLn8Y828p1gQM/edit?usp=sharing">Group Registration for Final Project</a>
+    
+    <p>Please sign up Piazza using this <a href="https://piazza.com/cuhk.edu.hk/spring2025/3280">link</a> for discussion and QA.
+    
+    <p>Office Hours: To be confirmed. Currently please email ZHANG Jihai if you have questions.
+
+course_semester: "Spring 2026"
+
+baseurl: "/CSCI3280-website" # the subpath of your site, e.g. /blog/
+url: "http:/MajorDavidZhang.github.io/" # the base hostname & protocol for your site
+
+schoolname: "CUHK"
+schoolurl: "https://www.cuhk.edu.hk"
+
+address: |
+    Department of Computer Science & Engineering
+    The Chinese University of Hong Kong
+    Hong Kong
+
+# Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
+# google_analytics: UA-XXXXXXXX-X
+
+### Do not change the followings unless you know what you are doing ###
+
+# Build settings
+markdown: kramdown
+
+# Other options
+permalink: blog/:year/:month/:title
+excerpt_separator: "<!--more-->"
+
+include: ['_images', '_css']
+exclude: ['develop']
+
+dateformat: "%m/%d/%Y"
+
+future: true
+collections:
+    events:
+        output: false
+    lectures:
+        output: true
+    tutorials:
+        output: false
+    projects:
+        output: false
+    assignments:
+        output: false
+    announcements:
+        output: false
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "assignments"
+    values:
+      layout: "assignment"
