@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 08/01/2025
+date: 08/01/2026
 title: Introduction to Multimedia 1) multimedia applications; 2) media types; 3) challenges and research issues.
 ---
 **Lecture Notes:**

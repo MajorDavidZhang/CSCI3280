@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 14/01/2025
+date: 14/01/2026
 title: Machine Learning and Deep Learning
 ---
 **Lecture Notes:**
